@@ -1,0 +1,47 @@
+.h1{
+    text-align: center;
+    color: white;
+}
+
+label{
+    color: white;
+}
+
+#newele{
+    margin-left: 80px;
+    margin-top: 10px;
+    display: none;
+}
+
+.flex-container{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: nowrap;  
+    width: 100%;
+    height: 500px;
+    justify-content: center;
+    transition: 2s all ease;
+}
+
+.flex-item{
+    color: white;
+    background: red;
+    border: 0 solid black;
+    width: 25px;
+    margin: 5px;
+    transition: 0.1s all ease;
+    text-align: center;
+    font-size: 90%;
+}
+
+.array_row, .array{
+    margin: 10px;
+    display: inline;
+}
+
+.element{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    display: inline;
+}
